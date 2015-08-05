@@ -1,0 +1,32 @@
+{
+  "name": "pbf-split",
+  "version": "1.0.0",
+  "description": "A Node stream that splits multiple protocol buffer messages",
+  "main": "index.js",
+  "dependencies": {
+    "varint": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapbox/pbf-split.git"
+  },
+  "keywords": [
+    "protocol",
+    "buffer",
+    "pbf",
+    "protobuf",
+    "binary",
+    "stream",
+    "split"
+  ],
+  "author": "Vladimir Agafonkin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mapbox/pbf-split/issues"
+  },
+  "homepage": "https://github.com/mapbox/pbf-split#readme"
+}
