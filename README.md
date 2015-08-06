@@ -1,7 +1,9 @@
 ## pbf-split
 
+**WARNING**: this module is a mistake. Use the clearly superior [length-prefixed-stream](https://github.com/mafintosh/length-prefixed-stream) instead (only discovered after writing this one).
+
 [![Build Status](https://travis-ci.org/mapbox/pbf-split.svg)](https://travis-ci.org/mapbox/pbf-split)
-[![Coverage Status](https://coveralls.io/repos/mapbox/pbf-split/badge.svg?branch=master&service=github)](https://coveralls.io/github/mapbox/pbf-split?branch=master)
+[![Coverage Status](https://coveralls.io/repos/mapbox/pbf-split/badge.svg?branch=master)](https://coveralls.io/github/mapbox/pbf-split?branch=master)
 
 A Node stream that splits a stream of multiple [Protocol Buffer](https://developers.google.com/protocol-buffers/docs/overview) messages into individual messages.
 
