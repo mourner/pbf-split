@@ -1,5 +1,7 @@
 ## pbf-split
 
+[![Build Status](https://travis-ci.org/mapbox/pbf-split.svg)](https://travis-ci.org/mapbox/pbf-split)
+
 A Node stream that splits a stream of multiple [Protocol Buffer](https://developers.google.com/protocol-buffers/docs/overview) messages into individual messages.
 
 ### How to use
