@@ -7,12 +7,12 @@ var Transform = require('stream').Transform,
 module.exports = pbfsplit;
 
 
-function pbfsplit(options) {
-    return new PBFSplit(options);
+function pbfsplit() {
+    return new PBFSplit();
 }
 
-function PBFSplit(options) {
-    Transform.call(this, options);
+function PBFSplit() {
+    Transform.call(this);
     this._remainders = [];
 }
 
