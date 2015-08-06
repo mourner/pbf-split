@@ -1,6 +1,7 @@
 ## pbf-split
 
 [![Build Status](https://travis-ci.org/mapbox/pbf-split.svg)](https://travis-ci.org/mapbox/pbf-split)
+[![Coverage Status](https://coveralls.io/repos/mapbox/pbf-split/badge.svg?branch=master&service=github)](https://coveralls.io/github/mapbox/pbf-split?branch=master)
 
 A Node stream that splits a stream of multiple [Protocol Buffer](https://developers.google.com/protocol-buffers/docs/overview) messages into individual messages.
 
